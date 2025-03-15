@@ -1,0 +1,24 @@
+baseURL = "https://anon.com/"
+languageCode = "it-it"
+title = "Anon"
+theme = "terminal"
+
+# Aggiungi altre configurazioni come vuoi
+[params]
+  description = "Hello Friend! Welcome to my world."
+  author = "Anon"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Chi siamo"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Contatti"
+  url = "/contact/"
+  weight = 3
